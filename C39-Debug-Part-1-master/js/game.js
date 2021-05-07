@@ -64,8 +64,10 @@ class Game{
                          
                      }
                     
-                     
-                 
+                     textSize(25);
+                     fill("white");
+                     text("Player1:"+allPlayers.player1.score,50,50);
+                     text("Player2:"+allPlayers.player2.score,50,100);
                  }
                 
                 
